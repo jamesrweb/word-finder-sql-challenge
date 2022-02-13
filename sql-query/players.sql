@@ -95,7 +95,7 @@ FROM PLAYERS p
     INNER JOIN GOALS g ON g.player_id = p.player_id
 WHERE p.team = "FCB";
 
--- TODO: A3
+-- A3
 SELECT DISTINCT p.*
 FROM PLAYERS p
     INNER JOIN GOALS g ON g.player_id = p.player_id
